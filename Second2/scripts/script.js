@@ -4,7 +4,7 @@ let user = prompt('Как тебя зовут?','Тони');
 alert(`Привет, ${user}!`);
 
 //alert(String.fromCharCode(63));
-// let isBoss = confirm("Ты учишься?")
+// let isBoss = confirm("Ты учишься?");
 // alert(isBoss);
 // let apples = "2";
 // let oranges = "3";
