@@ -1,5 +1,11 @@
 "use strict"
 
+
+
+//  let apples = "2";
+//  let oranges = "3";
+//  lert( +apples + +oranges );
+//  alert( +a );
 //  let user = prompt('Как тебя зовут?','Тони');
 //  alert(`Привет, ${user}!`);
 //  alert(String.fromCharCode(63));
