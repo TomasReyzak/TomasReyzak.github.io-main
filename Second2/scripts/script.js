@@ -1,10 +1,12 @@
-"use strict"
-
-const firstName = 'Joffrey';
-const greeting = 'Hello';
-console.log(`${greeting}, ${firstName}!`);
+5+2
 
 /* 
+const consoledir = console.dir(console); //это выражение отображается в консоли браузера
+alert(consoledir);
+
+console.table(console);
+
+console.dir(console)
 
 const name = 'Na\nharis';
 console.log(name[7]);
@@ -35,5 +37,4 @@ alert("Dragon's mother said \"No\"");
 alert('Dragon' + 'stone');
 
 Cделать перевод строки можно используя символ перевода строки: \n. 
-
 */
