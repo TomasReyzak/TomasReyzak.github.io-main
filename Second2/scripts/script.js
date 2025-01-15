@@ -1,8 +1,14 @@
 "use strict"
 
-
+const firstName = 'Joffrey';
+const greeting = 'Hello';
+console.log(`${greeting}, ${firstName}!`);
 
 /* 
+
+const name = 'Na\nharis';
+console.log(name[7]);
+
 const firstName = 'Joffrey';
 const greeting = 'Hello';
 console.log(`${greeting}, ${firstName}!`);
@@ -28,4 +34,6 @@ alert( apples - oranges );
 alert("Dragon's mother said \"No\"");
 alert('Dragon' + 'stone');
 
-Cделать перевод строки можно используя символ перевода строки: \n. */
+Cделать перевод строки можно используя символ перевода строки: \n. 
+
+*/
