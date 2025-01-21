@@ -1,4 +1,4 @@
-5+2
+console.log(5+2);
 
 /* 
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
