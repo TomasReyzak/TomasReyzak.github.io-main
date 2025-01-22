@@ -1,10 +1,11 @@
-let myName = 'Tom';
-myName = 'Tomas';
-
-console.log(myName);
-
+const myName = {
+    a: 'Tomas',
+    b: 'Reyzak',
+};
  
-
+const changeMyName = myName;
+changeMyName.a = 'Tom';
+alert(myName);
 /* 
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
 alert(consoledir);
