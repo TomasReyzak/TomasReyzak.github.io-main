@@ -1,4 +1,9 @@
-console.log(5+2);
+let myName = 'Tom';
+myName = 'Tomas';
+
+console.log(myName);
+
+ 
 
 /* 
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
