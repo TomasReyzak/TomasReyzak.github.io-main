@@ -1,14 +1,32 @@
-function addition(a, b) {
-    return
+function triArea(base, height) {
+	return (base * height) / 2;
 }
+
+base = 5;
+height = 10;
+alert (triArea(base, height));
+
 /*
-const myName = {
-    name: 'Tomas',
-    familyname: 'Reyzak'
+
+function convert(minutes) {
+	return  60 * (minutes)
 }
-const changeMyName = myName
-changeMyName.name = 'Tom'
-console.log(myName)
+minutes = 2;
+
+alert(convert(minutes));
+
+function myName(a, b) {
+    return(a + ' ' + b);
+}
+let name1 = 'Tom';
+let name2 = 'Reyzak';
+
+alert (myName (name1, name2));
+
+function addition(a, b) {
+    return (a + b);
+}
+console.log(addition(2, 5));
 
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
 alert(consoledir);
