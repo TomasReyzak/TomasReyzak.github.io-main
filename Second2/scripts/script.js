@@ -1,18 +1,18 @@
+function addition(a, b) {
+    return
+}
+/*
 const myName = {
     name: 'Tomas',
     familyname: 'Reyzak'
 }
- 
 const changeMyName = myName
-
 changeMyName.name = 'Tom'
 console.log(myName)
 
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
 alert(consoledir);
-
 console.table(console);
-
 console.dir(console)
 
 const name = 'Na\nharis';
