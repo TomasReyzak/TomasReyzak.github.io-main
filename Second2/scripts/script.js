@@ -1,18 +1,17 @@
+
+
+/*
 function triArea(base, height) {
 	return (base * height) / 2;
 }
-
 base = 5;
 height = 10;
 alert (triArea(base, height));
-
-/*
 
 function convert(minutes) {
 	return  60 * (minutes)
 }
 minutes = 2;
-
 alert(convert(minutes));
 
 function myName(a, b) {
@@ -20,7 +19,6 @@ function myName(a, b) {
 }
 let name1 = 'Tom';
 let name2 = 'Reyzak';
-
 alert (myName (name1, name2));
 
 function addition(a, b) {
