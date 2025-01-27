@@ -30,8 +30,8 @@ html, body {
   h1 {
     font-size: 4rem;
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 10px rgb(49, 19, 184);
+    color: rgb(243, 240, 240);
+    text-shadow: 2px 2px 10px rgb(79, 156, 207);
   }
   
   h2 {
@@ -121,7 +121,7 @@ html, body {
   aside {
     flex: 1;
     margin-left: 10px;
-    background-color: #90d3ff;
+    background-color: #9bcff1;
   }
   
   aside li {
