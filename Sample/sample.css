@@ -1,4 +1,28 @@
-/* || General setup */
+/* || General setup 
+
+#earth-img {
+    display: block;
+    margin: 0 auto;
+}
+
+#клик {
+    color: rgb(120, 120, 120);
+    text-align: center;
+}
+    
+#pluto:hover {
+    color: rgb(255, 133, 111);
+}
+
+#mars:hover {
+    color: rgb(218, 48, 48);
+}
+
+#saturn:hover {
+    color:rgb(177, 129, 59)
+}
+
+*/
 
 html, body {
     margin: 0;
