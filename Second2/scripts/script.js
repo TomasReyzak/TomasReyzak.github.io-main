@@ -30,7 +30,8 @@ console.log(addition(2, 5));
 const consoledir = console.dir(console); //это выражение отображается в консоли браузера
 alert(consoledir);
 console.table(console);
-console.dir(console)
+console.dir(console);
+console.log(console);
 
 const name = 'Na\nharis';
 console.log(name[7]);
