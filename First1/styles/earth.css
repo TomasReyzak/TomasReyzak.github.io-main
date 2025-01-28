@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   font-size: 18px;
@@ -11,9 +15,12 @@ body {
 
 header {
   font-family: 'Sonsie One', cursive;
-  color: #5da0f8;
+  color: #0d8ce0;
   font-size: 20px;
-  text-shadow: 2px 2px 10px rgb(142, 209, 248);
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 h1, h2, h3 {
@@ -55,8 +62,7 @@ nav {
   height: 50px;
   background-color: #7dc6f7;
   display: flex;
-  margin-bottom: 10px;
-  
+  margin-bottom: 10px; 
 }
 
 nav ul {
@@ -117,4 +123,27 @@ input[type="submit"] {
   background: #353535;
   border: 0;
   color: rgb(226, 223, 223);
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  
+  flex: 1;
+  margin-left: 10px;
+  background-color: #9bcff1;
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
 }
