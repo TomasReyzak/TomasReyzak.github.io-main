@@ -117,6 +117,19 @@ html, body {
     flex: 4;
   }
   
+  dl {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    color: #535151;
+  }
+
+  dt {
+    font-family: 'Sonsie One', cursive;
+    color: #5f5e5e;
+    font-size: 2.2rem;
+  }
+
   aside {
     flex: 1;
     margin-left: 10px;
