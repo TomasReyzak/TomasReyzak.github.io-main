@@ -1,142 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8" />
-
-    <title>Заголовок моей страницы</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
-      rel="stylesheet"
-      type="text/css" />
-    <link rel="stylesheet" href="sample.css" />
+  <head lang="ru">
+    <meta charset="utf-8"/>
+    <meta name="author" content="Eleanor Gaye">
+    <title>Letter</title>
+    <link rel="stylesheet" type="text/css" href="sample.css">
   </head>
-
+  
   <body>
+    <p class="sender-column">
+      <strong>Eleanor Gaye</strong><br>
+      Awesome Science faculty<br>
+      University of Awesome<br>
+      Bobtown, CA 99999,<br>
+      USA<br>
+      <strong>Tel</strong>: 123-456-7890<br>
+      <strong>Email</strong>: no_reply@example.com<br>
+    </p>
 
-    <header>
-      <h1>Заголовок</h1>
-    </header>
+    <p class="sender-column"><time datetime="2016-01-20">20 января 2016</time><br></p>
 
-    <nav>
-      <ul>
-        <li><a href="#">Домашняя страница</a></li>
-        <li><a href="#">Наша команда</a></li>
-        <li><a href="#">Проекты</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
+    <p>
+      <strong>Miss Eileen Dover</strong><br>
+      4321 Cliff Top Edge<br>
+      Dover, CT9 XXX<br>
+      UK
+    </p>
 
-      <form>
-        <input type="search" name="q" placeholder="Search query" />
-        <input type="submit" value="Go!" />
-      </form>
-    </nav>
+    <h1>Re: Eileen Dover university application</h1>
 
-    <main>
-      <article>
-        <h2>Заголовок статьи</h2>
+    <p>Dear Eileen,</p>
+    <p>
+      Thank you for your recent application to join us at the 
+      University of Awesome's science faculty to study as part of your PhD next year.
+      I will answer your questions one by one, in the following sections.
+    </p>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-        </p>
+    <p>Starting Dates</p>
+    <p>
+      We are happy accomodate you starting your study with us at any time,
+      however it would suit us better if you could start at beginning of a semester;
+      the start dates for each one are as follows:
+    </p>
 
-        <h3>Подраздел</h3>
+    <ul>
+      <li>First semester:<time datetime="2016-09-9"> 9 September 2016</time></li>
+      <li>Second semester:<time datetime="2017-01-15">15 Junuary 2017</time></li>
+      <li>Third semester:<time datetime="2017-05-02">2 May 2017</time></li>
+    </ul>
 
-        <p>
-          Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem.
-          Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
-        </p>
-
-        <p>
-          Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-          dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-          Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
-        </p>
-
-        <h3>Ещё один подраздел</h3>
-
-        <p>
-          Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
-          soclis natoque penatibus et manis dis parturient montes, nascetur
-          ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-          facilisis semper ac in est.
-        </p>
-
-        <p>
-          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
-          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
-          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
-          diam iaculis velit, is fringille sem nunc vet mi.
-        </p>
-
-        <dl>
-          <dt>Солилоквий</dt>
-          <dd>
-            Драматическая речь, в которой персонаж разговаривает сам с собой, передавая
-            свои ощущения и мысли публике (но не другим персонажам).
-          </dd>
-          <dt>Монолог</dt>
-          <dd>
-            Драматическая речь, в которой персонаж передаёт свои мысли публике и
-            некоторым персонажам.
-          </dd>
-          <dt>Ремарка</dt>
-          <dd>
-            В драме: речь персонажа, при которой делается замечание с юмористическим или
-            драматическим эффектом; чаще всего это чувства, мысли или предпосылки к
-            чему-либо.
-          </dd>
-        </dl>
-
-        <p>Другая информация:</p>
-
-        <p>
-          Как указано в статье о
-          <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
-            <cite>блочных цитатах</cite>
-          </a>
-          :
-        </p>
-
-        <blockquote
-          cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
-          <p>
-            <strong>HTML-элемент <code>&lt;blockquote&gt;</code></strong> (от англ.
-            <em>HTML Block Quotation Element</em>) указывает на то, что заключённый в
-            нём текст является развёрнутой цитатой.
-          </p>
-        </blockquote>
-
-        <p>
-          Элемент цитирования <code>&lt;q&gt;</code> предназначен
-          <q cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q">
-            для коротких цитат, не требующих прерывания абзаца
-          </q>
-          (<a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q"> <cite>Строчные цитаты</cite> </a>)
-          .
-        </p>
-
-      </article>
-
-      <aside>
-        <h2>Связанные темы</h2>
-
-        <ul>
-          <li><a href="#">Мне нравится стоять рядом с берегом моря</a></li>
-          <li><a href="#">>Мне нравится стоять рядом с морем</a></li>
-          <li><a href="#">Даже на севере Англии</a></li>
-          <li><a href="#">Здесь не перестаёт дождь</a></li>
-          <li><a href="#">Лаааадно...</a></li>
-        </ul>
-      </aside>
-    </main>
-
-    <footer>
-      <p>©Авторские права никому не принадлежат, 2050. Все права защищены.</p>
-    </footer>
+    
   </body>
 </html>
