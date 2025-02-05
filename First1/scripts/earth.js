@@ -2,8 +2,6 @@ document.querySelector("header").onclick = function () {
     alert ("Не тыкай!");
 };
 
-/*
-
 var myImage = document.querySelector("img");
 
 myImage.onclick = function() {
@@ -15,8 +13,6 @@ myImage.onclick = function() {
         myImage.setAttribute("src", "images/earth-1.png")
     );
 };
-
-*/
 
 var myButton = document.querySelector("button");
 var myHeading = document.querySelector("header");
