@@ -9,7 +9,6 @@ html {
   background-color: #ceeef8;
 }
 
-
 body {
   width: 90%;
   margin: 0 auto;
@@ -25,8 +24,6 @@ header {
   margin-bottom: 10px;
   margin-right: 10px;
 }
-
-
 
 h1, h2, h3 {
   font-family: 'Sonsie One', cursive;
@@ -61,6 +58,18 @@ p, li {
 nav, article, aside, footer {
   background-color: white;
   padding: 2%;
+}
+
+figure {
+  display: flex;
+}
+
+figcaption {
+  
+}
+
+video {
+  
 }
 
 nav {
