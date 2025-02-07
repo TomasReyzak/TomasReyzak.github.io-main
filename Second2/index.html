@@ -8,19 +8,24 @@
 
 <body>
 
-  <video 
-    controls
-    width="400"
-    height="400"
-    autoplay
-    loop
-    muted>
-    <source src="rabbit320.mp4" type="video/mp4" />
-    <source src="rabbit320.webm" type="video/webm" />
-    <p>
-      Ваш браузер не поддерживает HTML5 видео. Вот
-      <a href="rabbit320.mp4">ссылка на видео</a> взамен.
-    </p>
+  <video
+  controls
+  width="400"
+  height="400"
+  loop
+  muted
+  poster="krolik.jpg">
+  <source src="rabbit320.webm" type="video/webm" />
+   <p>
+     Ваш браузер не поддерживает HTML5 видео. Используйте
+     <a href="rabbit320.webm">ссылку на видео</a> для доступа.
+   </p>
+ </video>
+
+  <video controls>
+    <source src="example.mp4" type="video/mp4" />
+    <source src="example.webm" type="video/webm" />
+    <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
   </video>
 
     <p>Я родился 11<sup>го</sup> января.</p>
