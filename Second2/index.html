@@ -1,71 +1,130 @@
 <!DOCTYPE html>
 
 <html lang="ru">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
+
     <title>Что</title>
-</head>
+    
+      <style>
+        html {
+        font-family: sans-serif;
+        }
+    
+        table {
+          border-collapse: collapse;
+          border: 2px solid rgb(200,200,200);
+          letter-spacing: 1px;
+          font-size: 0.8rem;
+        }
+    
+        td, th {
+          border: 1px solid rgb(190,190,190);
+          padding: 10px 20px;
+        }
+    
+        td {
+          text-align: center;
+        }
+    
+        caption {
+          padding: 10px;
+        }
+      </style>
+  </head>
 
-<body>
-  <table>
-
+  <body>
     <table>
-      <colgroup>
-        <col style="background-color: rgb(177, 255, 229);" span="2"/>
-      </colgroup>
+        <caption>Scool Timetable</caption>
+        <colgroup style="border:4px solid #3d30f1;"">
+          <col span="2">
+          <col style="background-color:#97DB9A;">
+          <col style="width:100px;">
+          <col style="background-color:#97DB9A;">
+          <col style="background-color:#f8e3b2; border:4px solid #ac2b63;">
+          <col span="2" style="width:100px;">
+        </colgroup>
       <tr>
-        <th colspan="2">Animals</th>
+        <td>&nbsp;</td>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thurs</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
       </tr>
       <tr>
-        <th colspan="2">Hippopotamus</th>
+        <th>1st period</th>
+        <td>English</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
       <tr>
-        <th rowspan="2">Horse</th>
-        <td>Mare</td>
+        <th>2nd period</th>
+        <td>English</td>
+        <td>English</td>
+        <td>&nbsp;</td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
       <tr>
-        <td>Stallion</td>
+        <th>3rd period</th>
+        <td>&nbsp;</td>
+        <td>German</td>
+        <td>&nbsp;</td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
       <tr>
-        <th colspan="2">Crocodile</th>
-      </tr>
-      <tr>
-        <th rowspan="2">Chicken</th>
-        <td>Hen</td>
-      </tr>
-      <tr>
-        <td>Rooster</td>
+        <th>4th period</th>
+        <td>&nbsp;</td>
+        <td>English</td>
+        <td>&nbsp;</td>
+        <td>English</td>
+        <td>Dutch</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
       </tr>
     </table>
 
-  <video
-  controls
-  width="400"
-  height="400"
-  loop
-  muted
-  poster="krolik.jpg">
-   <source src="rabbit320.webm" type="video/webm" />
-   <p>
-     Ваш браузер не поддерживает HTML5 видео. Используйте
-     <a href="rabbit320.webm">ссылку на видео</a> для доступа.
-   </p>
-  </video>
+    <video
+    controls
+    width="400"
+    height="400"
+    loop
+    muted
+    poster="krolik.jpg">
+    <source src="rabbit320.webm" type="video/webm" />
+      <p>
+        Ваш браузер не поддерживает HTML5 видео. Используйте
+        <a href="rabbit320.webm">ссылку на видео</a> для доступа.
+      </p>
+    </video>
 
-  <video controls>
-    <source src="example.mp4" type="video/mp4" />
-    <source src="example.webm" type="video/webm" />
-    <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
-  </video>
+    <video controls>
+      <source src="example.mp4" type="video/mp4" />
+      <source src="example.webm" type="video/webm" />
+      <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
+    </video>
 
-    <p>Я родился 11<sup>го</sup> января.</p>
-    <p>
-      Химическая формула кофеина:
-      C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
-    </p>
+      <p>Я родился 11<sup>го</sup> января.</p>
+      <p>
+        Химическая формула кофеина:
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
+      </p>
 
-    <article>
+      <article>
 
         <!-- Стандартная дата -->
         <time datetime="2016-01-20">20 января 2016</time><br>
@@ -76,58 +135,61 @@
         <!-- Только месяц и день -->
         <time datetime="01-20">20 января</time><br>
 
-        <pre><code>const para = document.querySelector('p');
+        <pre>
+          <code>const para = document.querySelector('p');
 
           para.onclick = function() {
             alert('Клик по абзацу!');
-          }</code></pre>
+          }
+          </code>
+        </pre>
           
-          <p>
-            Не следует использовать HTML-элементы только для изменения внешнего вида
-            текста, такие как <code>&lt;font&gt;</code> и <code>&lt;center&gt;</code>.
-          </p>
-          
-          <p>
-            В представленном выше примере JavaScript-кода, <var>para</var> представляет
-            элемент абзаца.
-          </p>
-          
-          <p>
-            Выбрать весь текст можно с помощью комбинации клавиш
-            <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.
-          </p>
-          
-          <pre>$ <kbd>ping mozilla.org</kbd>
-          <samp>PING mozilla.org (63.245.215.20): 56 data bytes
-          64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+        <p>
+          Не следует использовать HTML-элементы только для изменения внешнего вида
+          текста, такие как <code>&lt;font&gt;</code> и <code>&lt;center&gt;</code>.
+        </p>
+        
+        <p>
+          В представленном выше примере JavaScript-кода, <var>para</var> представляет
+          элемент абзаца.
+        </p>
+        
+        <p>
+          Выбрать весь текст можно с помощью комбинации клавиш
+          <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.
+        </p>
+        
+        <pre>$ <kbd>ping mozilla.org</kbd>
+        <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+        64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
 
-          <p>
-            Как указано в статье о
-            <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
-              <cite>блочных цитатах</cite>
-            </a>
-            :
-          </p>
-  
-          <blockquote
-            cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
-            <p>
-              <strong>HTML-элемент <code>&lt;blockquote&gt;</code></strong> (от англ.
-              <em>HTML Block Quotation Element</em>) указывает на то, что заключённый в
-              нём текст является развёрнутой цитатой.
-            </p>
-          </blockquote>
-  
-          <p>
-            Элемент цитирования <code>&lt;q&gt;</code> предназначен
-            <q cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q">
-              для коротких цитат, не требующих прерывания абзаца
-            </q>
-            (<a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q"> <cite>Строчные цитаты</cite> </a>).
-          </p>
-    </article>   
+        <p>
+          Как указано в статье о
+          <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
+            <cite>блочных цитатах</cite>
+          </a>
+          :
+        </p>
 
-    <a href="mailto:nowhere@mozilla.org">Отправить письмо для nowhere</a>
+        <blockquote
+          cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
+          <p>
+            <strong>HTML-элемент <code>&lt;blockquote&gt;</code></strong> (от англ.
+            <em>HTML Block Quotation Element</em>) указывает на то, что заключённый в
+            нём текст является развёрнутой цитатой.
+          </p>
+        </blockquote>
+
+        <p>
+          Элемент цитирования <code>&lt;q&gt;</code> предназначен
+          <q cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q">
+            для коротких цитат, не требующих прерывания абзаца
+          </q>
+          (<a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q"> <cite>Строчные цитаты</cite> </a>).
+        </p>
+      </article>   
+
+      <a href="mailto:nowhere@mozilla.org">Отправить письмо для nowhere</a>
 </body>
 </html>
 
