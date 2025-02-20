@@ -1,7 +1,40 @@
 p {
     color: rgb(194, 128, 47);
 }
-.special {
+span.special {
     color: crimson;
     font-weight: bold;
 }
+
+li em {
+    color: rgb(127, 136, 255);
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+a:link {
+    color: rgb(39, 184, 26);
+}
+
+a:visited {
+    color: rgb(238, 170, 170);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* 
+article p span { color: yellow; }
+
+h1 + ul + p { color: blue; } 
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+*/
+
