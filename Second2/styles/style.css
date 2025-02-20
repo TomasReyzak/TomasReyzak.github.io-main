@@ -28,6 +28,11 @@ td, th {
   padding: 10px 20px;
 }
 
+li {
+  /* list-style-type: none; - Убирает маркеры в списке */
+  list-style-type: square;
+}
+
 th {
   background-color: rgb(235,235,235);
 }
