@@ -1,3 +1,7 @@
 p {
-    color: rgb(226, 154, 65);
+    color: rgb(194, 128, 47);
+}
+.special {
+    color: crimson;
+    font-weight: bold;
 }
