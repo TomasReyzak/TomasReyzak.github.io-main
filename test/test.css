@@ -26,6 +26,11 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    border: 5px solid purple;
+    background-color: #eeeeee;
+    padding: 5px;
+}
 /* 
 article p span { color: yellow; }
 
