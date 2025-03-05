@@ -16,6 +16,14 @@ caption {
   padding: 10px;
 }
 
+h1.Greatings {
+  color: darkred;
+}
+
+.Greatings {
+  color: crimson;
+}
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
