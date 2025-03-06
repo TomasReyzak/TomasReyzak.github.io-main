@@ -16,6 +16,22 @@ caption {
   padding: 10px;
 }
 
+li[class^="a"] {
+  font-size: 200%;
+}
+
+li[class$="a"] {
+  background-color: yellow;
+}
+
+li[class*="a"] {
+  color: red;
+}
+
+p[class]{
+  font-size: 20px;
+}
+
 h1.Greatings {
   color: darkred;
 }
