@@ -16,6 +16,21 @@ caption {
   padding: 10px;
 }
 
+/* 
+:first-child — он всегда будет нацелен на первый дочерний элемент в статье,
+и нам больше не нужно будет редактировать HTML./
+
+:last-child
+:only-child
+:invalid
+
+*/
+
+article p:first-child { 
+  font-size: 120%;
+  font-weight: bold;
+}
+
 li[class^="a"] {
   font-size: 200%;
 }
