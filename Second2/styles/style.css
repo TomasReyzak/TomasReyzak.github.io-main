@@ -26,7 +26,15 @@ caption {
 
 */
 
-article p:first-child { 
+.box::before {
+  content: "This content.";
+}
+
+.box::after {
+  content: " ➥";
+}
+
+article p:first-child::first-line{ 
   font-size: 120%;
   font-weight: bold;
 }
