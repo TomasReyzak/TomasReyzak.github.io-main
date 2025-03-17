@@ -1,35 +1,29 @@
-p {
-    color: rgb(194, 128, 47);
-}
-span.special {
-    color: crimson;
-    font-weight: bold;
-}
-
-li em {
-    color: rgb(127, 136, 255);
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    word-spacing: 1.5; /*Междустрочный от отступ*/
 }
 
-h1 + p {
-    font-size: 200%;
+.title {
+    font-size: 40px;
+    color: #f03333;
+    word-spacing: 1.2;
+    text-transform: uppercase; /*Все буквы загланые*/
 }
 
-a:link {
-    color: rgb(39, 184, 26);
+.subtitle {
+    font-size: 30px;
+    color: #12ac11;
+    word-spacing: 1.2;
+    text-decoration: underline; /*Подчеркивания текста*/
 }
 
-a:visited {
-    color: rgb(238, 170, 170);
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-ul {
-    border: 5px solid purple;
-    background-color: #eeeeee;
-    padding: 5px;
+.list {
+    font-size: 20px;
+    color: #444;
+    font-style: oblique;
+    list-style-type: square;
 }
 /* 
 article p span { color: yellow; }
