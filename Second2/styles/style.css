@@ -24,7 +24,10 @@ caption {
 :only-child
 :invalid
 
+-Комбинаторы
+
 */
+
 .box::before {
   content: "This content.";
 }
