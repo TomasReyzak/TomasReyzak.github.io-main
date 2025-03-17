@@ -9,7 +9,7 @@ body {
     font-size: 40px;
     color: #f03333;
     word-spacing: 1.2;
-    text-transform: uppercase; /*Все буквы загланые*/
+    text-transform: uppercase; /*Все буквы заглавные*/
 }
 
 .subtitle {
