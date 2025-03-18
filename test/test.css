@@ -1,22 +1,24 @@
+
+/* 
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #333;
-    word-spacing: 1.5; /*Междустрочный от отступ*/
+    word-spacing: 1.5; Междустрочный от отступ
 }
 
 .title {
     font-size: 40px;
     color: #f03333;
     word-spacing: 1.2;
-    text-transform: uppercase; /*Все буквы заглавные*/
+    text-transform: uppercase; Все буквы заглавные
 }
 
 .subtitle {
     font-size: 30px;
     color: #12ac11;
     word-spacing: 1.2;
-    text-decoration: underline; /*Подчеркивания текста*/
+    text-decoration: underline; Подчеркивания текста
 }
 
 .list {
@@ -25,7 +27,7 @@ body {
     font-style: oblique;
     list-style-type: square;
 }
-/* 
+
 article p span { color: yellow; }
 
 h1 + ul + p { color: blue; } 
