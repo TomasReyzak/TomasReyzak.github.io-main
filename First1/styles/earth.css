@@ -1,7 +1,7 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  
 }
 
 html {
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  font-family: 'Sonsie One', cursive;
+  font-family: "Sonsie One", cursive;
   color: rgb(29, 115, 196);
   text-shadow: 4px 4px 4px rgb(39, 126, 184);
   font-size: 20px;
@@ -25,13 +25,17 @@ header {
   margin-right: 10px;
 }
 
-h1, h2, h3 {
-  font-family: 'Sonsie One', cursive;
+h1,
+h2,
+h3 {
+  font-family: "Sonsie One", cursive;
   color: #444343;
 }
 
-p, input, li {
-  font-family: 'Nunito', sans-serif;
+p,
+input,
+li {
+  font-family: "Nunito", sans-serif;
   color: #383636;
 }
 
@@ -50,12 +54,15 @@ h3 {
   font-size: 2rem;
 }
 
-p, li {
+p,
+li {
   font-size: 1rem;
-  
 }
 
-nav, article, aside, footer {
+nav,
+article,
+aside,
+footer {
   background-color: white;
   padding: 2%;
 }
@@ -68,7 +75,7 @@ nav {
   height: 50px;
   background-color: #7dc6f7;
   display: flex;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -140,7 +147,6 @@ article {
 }
 
 aside {
-  
   flex: 1;
   margin-left: 10px;
   background-color: #9bcff1;
