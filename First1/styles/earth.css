@@ -1,6 +1,7 @@
 html,
 body {
-  margin: 0;
+  margin: 10px;
+  /* определяет внешний отступ на всех четырёх сторонах элемента */
   padding: 0;
 }
 
@@ -31,6 +32,7 @@ h3 {
   font-family: "Sonsie One", cursive;
   color: #444343;
 }
+
 
 p,
 input,
