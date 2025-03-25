@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
@@ -8,19 +9,43 @@
   </head>
 
   <body>
-    <h1>Интерактивный макет Солнечной системы</h1>
-    <ul>
-      <li>Солнце</li>
-      <li>Меркурий</li>
-      <li>Венера</li>
-      <li>Земля</li>
-      <li>Марс</li>
-      <li>Юпитер</li>
-      <li>Сатурн</li>
-      <li>Уран</li>
-      <li>Нептун</li>
-      <li>Плутон</li>
-    </ul>
+    <header>
+      <h1>Макет Солнечной системы</h1>
+    </header>
+    <nav>
+      <ul class="list">
+        <li>
+          <a
+            href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5"
+            >Солнце</a
+          >
+        </li>
+        <ul>
+          <li>Меркурий</li>
+          <li>Венера</li>
+          <li>Земля</li>
+          <ul>
+            <li>Луна</li>
+          </ul>
+          <li>Марс</li>
+          <li>Юпитер</li>
+          <li>Сатурн</li>
+          <li>Уран</li>
+          <li>Нептун</li>
+          <li>Плутон</li>
+        </ul>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="System">
+        <div class="Sun">*Позиция для Солнца*</div>
+        <div class="Earth">
+          *Позиция для Земли*
+          <div class="Moon">*Позиция для Луны*</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
 
