@@ -1,17 +1,8 @@
 ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
+  list-style: circle;
+
 }
 
-#One {
-  border: 5px dotted black;
-  margin-top: 20px;
-  margin-right: 1em;
-  margin-bottom: 40px;
-  margin-left: 2em;
-  padding: 1em;
-}
 /* 
 body {
     font-family: Arial, sans-serif;
