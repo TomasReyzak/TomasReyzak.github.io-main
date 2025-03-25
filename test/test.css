@@ -1,14 +1,36 @@
 ul {
-  list-style: circle;
-
+  padding: 10px 16px 10px 26px;
+  list-style-type: circle;
+  background-color:rgb(250, 246, 203);
+  width: min-content;
+  border-radius: 20px 20px 20px 20px;
 }
 
+.list {
+  border: 2px rgb(219, 211, 131) solid;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  word-spacing: 1.5;
+  width: 95%;
+  margin: 0 auto;
+}
 /* 
+.element {
+  width: 300px;
+  height: 100px;
+  border-radius: 20px 20px 150px 150px; Закругление углов
+  background-color: plum;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #333;
-    word-spacing: 1.5; Междустрочный от отступ
+    word-spacing: 1.5; Междустрочный отступ
 }
 
 .title {
