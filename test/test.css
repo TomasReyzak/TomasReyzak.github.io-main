@@ -1,7 +1,7 @@
 ul {
   padding: 10px 16px 10px 26px;
   list-style-type: circle;
-  background-color:rgb(250, 246, 203);
+  background-color: rgb(250, 246, 203);
   width: min-content;
   border-radius: 20px 20px 20px 20px;
 }
